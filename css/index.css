@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --veryPaleCyan: hsl(193, 100%, 96%);
+    --veryDarkCyan: hsl(192, 100%, 9%);
+    --grayishBlue: hsl(208, 11%, 55%);
+    --white: #fff;
+}
+
+
+/* class */
+
+.banner {
+    background: var(--veryPaleCyan);
+    border: 1px solid blue;
+    height: 700px;
+    display: flex;
+}
+
+.banner__image {
+    background-image: url("./../images/bg-hero-desktop.svg");
+    width: 100%;
+}
+
+.banner__header {
+    height: 20%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__logo {
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__logo img {
+    width: 60%;
+}
+
+.banner__button {
+    border: 1px solid blue;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* padding: arriba|abajo  costados  */
+
+.banner__button button {
+    padding: 10px 50px;
+    background: var(--white);
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(223, 223, 223) 1px 1px 100px;
+    cursor: pointer;
+}
+
+.banner__body {
+    display: flex;
+    border: 1px solid purple;
+    height: 80%;
+}
+
+.banner__left {
+    border: 1px solid red;
+    width: 45%;
+    height: 100%;
+}
+
+.banner__right {
+    border: 1px solid green;
+    width: 55%;
+    height: 100%;
+}
