@@ -6,6 +6,7 @@ body {
 
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -67,6 +68,8 @@ body {
     border: none;
     box-shadow: rgb(223, 223, 223) 1px 1px 100px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .banner__body {
@@ -79,6 +82,18 @@ body {
     border: 1px solid red;
     width: 45%;
     height: 100%;
+    padding: 2em 3em;
+}
+
+.banner__left h1 {
+    border: 1px solid blue;
+    font-size: 36px;
+    width: 400px;
+}
+
+.banner__left article p {
+    border: 1px solid red;
+    font-size: 18.5px;
 }
 
 .banner__right {
